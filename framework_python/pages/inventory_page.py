@@ -1,6 +1,6 @@
 from playwright.async_api import Page
 
-class InvetoryPage:
+class InventoryPage:
      def __init__(self, page : Page):
           self.page = page
           self.inventory_list = ".inventory_list"
